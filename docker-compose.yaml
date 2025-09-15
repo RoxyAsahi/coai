@@ -29,7 +29,7 @@ services:
       - chatnio-network
 
   unichat:
-      image: roxysakura/unichat:1.0
+      image: roxysakura/unichat:1.1
       container_name: unichat
       restart: always
       ports:
