@@ -373,12 +373,12 @@ function SettingsDialog() {
                 </p>
                 <a
                   className={`flex flex-row items-center`}
-                  href={`https://github.com/Deeptrain-Community/chatnio`}
+                  href={`https://uniquest.top`}
                 >
                   <Github
                     className={`inline-block h-4 w-4 mr-1 translate-y-[1px]`}
                   />
-                  chatnio v{version}
+                  UniChat v{version}
                   {desktop && <Badge className={`ml-1`}>App</Badge>}
                 </a>
               </div>

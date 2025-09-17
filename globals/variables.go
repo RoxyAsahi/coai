@@ -145,6 +145,12 @@ const (
 	SkylarkChat                  = "skylark-chat"
 	DeepseekV3                   = "deepseek-chat"
 	DeepseekR1                   = "deepseek-reasoner"
+	Gemini25FlashPreview0520     = "gemini-2.5-flash-preview-05-20"
+	Gemini25FlashLitePreview0617 = "gemini-2.5-flash-lite-preview-06-17" // gemini
+	LearnLM20FlashExperimental   = "learnlm-2.0-flash-experimental"      // learnlm
+	UNI3                         = "UNI-3"                               // uni
+	UNI4                         = "UNI-4"                               // uni
+	UNI5                         = "UNI-5"
 )
 
 var OpenAIDalleModels = []string{
@@ -157,9 +163,11 @@ var GoogleImagenModels = []string{
 
 var VisionModels = []string{
 	GPT4VisionPreview, GPT41106VisionPreview, GPT4Turbo, GPT4Turbo20240409, GPT4O, GPT4O20240513, // openai
-	GeminiProVision, Gemini15ProLatest, Gemini15FlashLatest, // gemini
-	Claude3,             // anthropic
-	ZhiPuChatGLM4Vision, // chatglm
+	GeminiProVision, Gemini15ProLatest, Gemini15FlashLatest, Gemini25FlashPreview0520, Gemini25FlashLitePreview0617, // gemini
+	Claude3,                    // anthropic
+	ZhiPuChatGLM4Vision,        // chatglm
+	LearnLM20FlashExperimental, // learnlm
+	UNI3, UNI4, UNI5,           // uni
 }
 
 var VisionSkipModels = []string{

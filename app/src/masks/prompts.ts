@@ -112,6 +112,138 @@ export const EN_MASKS: Mask[] = [
 
 export const CN_MASKS: Mask[] = [
   {
+    avatar: "1f680",
+    name: "Nova",
+    context: [
+      {
+        role: "system",
+        content: "{{Nova}}",
+      },
+    ],
+    lang: "cn",
+    builtin: true,
+  },
+  {
+    avatar: "1f468-200d-1f3eb",
+    name: "数学教师-全人AI", // name 字段保持不变
+    context: [
+      {
+        role: "system",
+        content: "{{MathTeacher}}", // content 字段已更新
+      },
+    ],
+    lang: "cn",
+    builtin: true,
+  },
+  {
+    avatar: "270d-fe0f",
+    name: "志愿填报-全人AI", // name 字段保持不变
+    context: [
+      {
+        role: "system",
+        content: "{{CollegeCounselor}}", // content 字段已更新
+      },
+    ],
+    lang: "cn",
+    builtin: true,
+  },
+  {
+    avatar: "1f9e0",
+    name: "学习认知小导师-全人AI", // name 字段保持不变
+    context: [
+      {
+        role: "system",
+        content: "{{StudyCoach}}", // content 字段已更新
+      },
+    ],
+    lang: "cn",
+    builtin: true,
+  },
+  {
+    avatar: "1f4da",
+    name: "英语教师-全人AI", // name 字段保持不变
+    context: [
+      {
+        role: "system",
+        content: "{{EnglishTeacher}}", // content 字段已更新
+      },
+    ],
+    lang: "cn",
+    builtin: true,
+  },
+  {
+    avatar: "1f4d6",
+    name: "语文教师-全人AI", // name 字段保持不变
+    context: [
+      {
+        role: "system",
+        content: "{{ChineseTeacher}}", // content 字段已更新
+      },
+    ],
+    lang: "cn",
+    builtin: true,
+  },
+  {
+    avatar: "1f30d",
+    name: "百科知识-全人AI", // name 字段保持不变
+    context: [
+      {
+        role: "system",
+        content: "{{KnowledgeBase}}", // content 字段已更新
+      },
+    ],
+    lang: "cn",
+    builtin: true,
+  },
+  {
+    avatar: "1f4dd",
+    name: "作业批改-全人AI", // name 字段保持不变
+    context: [
+      {
+        role: "system",
+        content: "{{HomeworkGrader}}", // content 字段已更新
+      },
+    ],
+    lang: "cn",
+    builtin: true,
+  },
+  {
+    avatar: "270d-fe0f",
+    name: "语文作文-全人AI", // name 字段保持不变
+    context: [
+      {
+        role: "system",
+        content: "{{EssayCoach}}", // content 字段已更新
+      },
+    ],
+    lang: "cn",
+    builtin: true,
+  },
+  {
+    avatar: "1f9d1-200d-2695-fe0f",
+    name: "心理导师-全人AI", // name 字段保持不变
+    context: [
+      {
+        role: "system",
+        content: "{{PsychologyMentor}}", // content 字段已更新
+      },
+    ],
+    lang: "cn",
+    builtin: true,
+  },
+  {
+    avatar: "1f984",
+    name: "Unico",
+    context: [
+      {
+        role: "system",
+        content: "{{Unico}}",
+      },
+    ],
+    lang: "cn",
+    builtin: true,
+  },
+  {
     // created by @ProgramZmh
     avatar: "1f9d0",
     name: "数学家",
@@ -119,7 +251,7 @@ export const CN_MASKS: Mask[] = [
       {
         role: "system",
         content:
-          "数学家擅长数学领域的各种知识。数学家的回答应该是严谨的数学语言，包括数学公式和推理过程。公式使用 $$ f $$ 包裹，推理过程使用 > 开头。推理过程中步骤之间使用空行分隔，以1. 2. 3. ...开头。",
+          "数学家擅长数学领域的各种知识。数学家的回答应该是严谨的数学语言，包括数学公式和推理过程。公式使用 $ f $ 包裹，推理过程使用 > 开头。推理过程中步骤之间使用空行分隔，以1. 2. 3. ...开头。",
       },
       {
         role: "user",

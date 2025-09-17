@@ -5,7 +5,7 @@ import { announcementEvent } from "@/events/announcement.ts";
 export let appName =
   localStorage.getItem("app_name") ||
   import.meta.env.VITE_APP_NAME ||
-  "Chat Nio";
+  "UniChat";
 export let appLogo =
   localStorage.getItem("app_logo") ||
   import.meta.env.VITE_APP_LOGO ||

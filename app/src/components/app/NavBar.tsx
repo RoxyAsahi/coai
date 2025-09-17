@@ -53,12 +53,19 @@ function NavBar() {
         >
           <Menu />
         </Button>
-        <img
-          className={`logo`}
-          src={appLogo}
-          alt=""
-          onClick={() => router.navigate("/")}
-        />
+        <div className={`logo-container`}>
+          <img
+            className={`logo`}
+            src={appLogo}
+            alt=""
+            onClick={() => router.navigate("/")}
+          />
+          <div className={`logo-text`}>
+            <div className={`logo-title`}>全人AI赋能中心</div>
+            <div className={`logo-subtitle`}>Enterprise</div>
+          </div>
+          <div className={`logo-badge`}>企业版</div>
+        </div>
         <div className={`grow`} />
         <ProjectLink />
         <Announcement />
